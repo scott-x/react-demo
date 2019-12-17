@@ -8,8 +8,6 @@ import store from './store';
 const App = (
 	<Provider store={store}>
         <TodoList/>
-        <A/>
-        <B></B>
 	</Provider>
 );
 ReactDOM.render(App, document.getElementById('root'));
